@@ -16,7 +16,7 @@ Ces tests sont adaptés pour une intégration continue et une automatisation com
 
 ### 1. Environnement Python et installation de Robot Framework
 
-Le projet utilise ***Python 3.12.3***. 
+Le projet utilise ***Python 3.12***. 
 Installer Robot Framework ainsi que les autres dépendances nécessaires : 
 ```bash
 pip install -r requirements.txt
