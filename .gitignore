@@ -1,0 +1,37 @@
+# Ignore the virtual environment folder
+env/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore Robot Framework logs and output files
+output.xml
+log.html
+report.html
+debug.log
+
+# Ignore Robot Framework screenshots and other artifacts
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignore cache and temporary files
+.cache/
+*.log
+.DS_Store
+
+# Ignore Robot Framework specific files
+*.robot~
+*.resource~
+*.tsv~
+*.html~
+*.xlsx~
+
+# Ignore files related to specific IDEs
+.vscode/
+.idea/
+
+# Ignore the actual config file with sensitive credentials
+Resources/config.py
