@@ -5,7 +5,7 @@ Ce projet utilise **Robot Framework** pour automatiser les tests de fonctionnali
 ## Objectifs et Fonctionnalités Testées
 
 L'objectif est de fournir une base de tests pour démontrer des recettes fonctionnelles automatisées sur les parcours utilisateurs du site, incluant notamment :
-- **Test de connexion** : Validation du Happy Path et des scénarios d’échec (KO) pour assurer une gestion robuste des accès.
+- **Test de connexion** : Validation du Happy Path et des scénarios d’échec (KO) pour assurer la gestion des accès.
 - **Inscription d'un nouvel utilisateur** : Création d’un compte, suivi de la vérification d’email via IMAP pour valider le compte.
 - **Suppression d’un utilisateur** : Suppression du compte créé pour éviter les doublons et garantir la propreté des données.
 - **Vérification des publications** : Contrôle du nombre de posts affichés, en le comparant au nombre réel obtenu par scraping des pages du site et recherche de l’utilisateur spécifique.
